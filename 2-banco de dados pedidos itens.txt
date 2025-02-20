@@ -1,0 +1,24 @@
+use oficina;
+
+
+create table pedidos
+(
+	
+id int primary key auto_increment,
+	
+fk_cliente int,
+	apelido text
+
+);
+
+
+create table pedidos_itens
+(
+	
+id int primary key auto_increment,
+    
+fk_pedido int,
+    
+fk_produto int
+    
+);
