@@ -1,6 +1,6 @@
 # Oficina APP
 
-Este projeto é um sistema de gerenciamento simples para uma oficina, que permite o cadastro, edição, exclusão e listagem de clientes, produtos e pedidos.
+Este projeto é um sistema de gerenciamento simples para uma oficina, que permite o cadastro, edição, exclusão e listagem de clientes, produtos e pedidos. 
 
 ## Estrutura do Projeto
 
@@ -100,13 +100,15 @@ CRUD/
 Crie as tabelas necessárias usando os scripts SQL presentes na pasta `banco_dados/`.
 
 ## Instalação e Execução
-1. Clone o repositório:
+1. Instale o XAMPP e o MySQL em sua máquina.
+2. Clone o repositório:
    ```bash
    git clone https://github.com/TKjoao/oficina.git
    ```
-2. Configure o banco de dados em `conexao/conexao.php`.
-3. Execute o projeto em um servidor local como XAMPP ou WAMP.
-4. Acesse no navegador:
+3. Configure o banco de dados em `conexao/conexao.php`.
+4. Execute o XAMPP e inicie o Apache e o MySQL.
+5. Execute o projeto em um servidor local como XAMPP ou WAMP.
+6. Acesse no navegador:
    ```
    http://localhost/CRUD/index.php
    ```
@@ -119,7 +121,7 @@ Crie as tabelas necessárias usando os scripts SQL presentes na pasta `banco_dad
 
 ## Autor
 - Nome: João Víctor Valentim Takamori
-  
+
 
 ## Licença
 Este projeto está sob a licença MIT.
