@@ -1,0 +1,45 @@
+*************************CADASTRO DE PRODUTOS************************
+
+/*
+create database oficina;
+
+
+use oficina;
+
+
+create table produtos 
+
+(
+	
+id int primary key auto_increment,
+    
+nome text,
+    
+quantidade int,
+    
+produto_custo decimal(10,2),
+
+produto_venda decimal(10,2)
+);
+
+*/
+
+select * from produtos;
+
+**************************CADASTRO DE CLIENTES*****************************
+
+/*
+use oficina;
+
+create table clientes
+(
+ id int primary key auto_increment,
+ nome text,
+ sexo text,
+ idade int,
+ email text,
+ celular varchar(100),/*obs tbm pode se usar BIGINT(14)*/
+ cidade text,
+ UF text
+);
+*/
